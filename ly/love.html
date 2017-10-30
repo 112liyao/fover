@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LoveFamily</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src='js/jquery.min.js'></script>
+	<script src='js/swiper.min.js'></script>
+</head>
+<style>
+	 html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -150px;
+        margin-top: -150px;
+        text-align: center;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: 100%;
+    }
+     .swiper-slide>span{
+     	display: inline-block;
+     	padding-top: 20px;
+     	font-size: 20px;
+     	padding-left: 10px;
+     	padding-right: 10px;
+     }
+</style>
+<body>
+	<!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(img/1.jpg)">
+            	<span>我喜欢你的笑，喜欢你的每一个样子。</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/4.jpg)">
+            	<span style='padding-top: 232px;'>那一天，阳光很好，很温暖的照进了心里。</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/2.jpg)">
+            	<span style='color:#fff;'>多希望你慢点长大，慢一点，再慢一点...</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/5.jpg)">
+            	<span>看你调皮的样子，我也跟着笑了</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/3.jpg)">
+            	<span><span style='color:#fff;'>画个</span>圈圈保护你</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/6.jpg)">
+            	<span style='padding-top: 232px;'>给你最温柔的盾</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/8.jpg)">
+            	<span  style='padding-top: 232px;'>过来，让我咬一口</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/7.jpg)">
+            	<span style='padding-top: 232px;'>那天，我遇到你，便有了世上最好的温柔</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/10.jpg)">
+            	<span style='padding-top: 232px;'>你是我的奇迹</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/9.jpg)">
+            	<span style='margin-top: 232px; background:#ccc; color:#fff;'>化作一道阳光，洒进你的心里，让你的世界不再孤单</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/13.jpg)">
+            	<span style='padding-top: 232px;'>不管有多难，记得有我在</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/14.jpg)">
+            	<span style='padding-top: 136px; color:#fff;'>我知道，终有一天，阳光会温暖的照在你的身上，也会照进你的心里，连灵魂都感到了一丝温暖，我看着你笑，开心的像个孩子，你说你很开心，我说我能感觉到</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/16.jpg)">
+            	<span style='padding-top: 136px;'>有句话我一直想对你说，却一直没有勇气，那就是：你踩我脚了</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/15.jpg)">
+            	<span style='padding-top: 232px;'>我想为你拂去眉头的不愉快</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/18.jpg)">
+                <span style='padding-top: 232px;'>我会一直在，一直陪在你身边</span>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/17.jpg)">
+                <span style='padding-top: 232px;'>你是我最爱的人</span>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'cube',
+        grabCursor: true,
+        cube: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94
+        }
+    });
+</script>
+</html>
